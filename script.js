@@ -1,6 +1,6 @@
 function calculateMinCost() {
   //your code here
-   let input = document.getElementById("ropeInput").value;
+   let input = document.getElementById("rope-lengths").value;
             if (!input) {
                 document.getElementById("result").innerText = "Please enter valid input.";
                 return;
